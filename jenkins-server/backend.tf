@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "mytodoappbucket"
-    key    = "jenkins/terraform.tfstate"
-    region = "us-east-2"
+    bucket = "myopbucket"
+    key    = "Jenkins1/terraform.tfstate"
+    region = "us-east-1"
   }
 }
